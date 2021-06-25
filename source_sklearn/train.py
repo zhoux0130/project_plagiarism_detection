@@ -59,11 +59,10 @@ if __name__ == '__main__':
     
 
     ## TODO: Define a model 
-    model = None
-    
-    
+    model = LinearSVC()
+
     ## TODO: Train the model
-    
+    model.fit(train_x, train_y)
     
     
     ## --- End of your code  --- ##
