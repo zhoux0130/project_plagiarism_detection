@@ -7,9 +7,10 @@ import pandas as pd
 # sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. 
 # from sklearn.externals import joblib
 # Import joblib package directly
-import joblib
+from sklearn.externals import joblib
 
 ## TODO: Import any additional libraries you need to define a model
+from sklearn.svm import LinearSVC
 
 
 # Provided model load function
